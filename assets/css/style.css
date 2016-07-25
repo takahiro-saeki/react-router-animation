@@ -1,0 +1,32 @@
+@import 'common/animate';
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+}
+
+header {
+  padding: 1rem;
+  background: #D500F9;
+  color: #FFF;
+  text-align: center;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  background: #F3E5F5;
+  div {
+    transition: 1s;
+    padding: 1rem;
+    width: 25%;
+    &:hover {
+      background: #AB47BC;
+      color: #FFF;
+    }
+  }
+}
